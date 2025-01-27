@@ -9,6 +9,7 @@ let pkmapi = 'https://pokeapi.co/api/v2/pokemon/' ;
 let pkmd;
 let pkm; 
 let pkmWeight;
+let pkmName;
 
 let weight;
 
