@@ -37,7 +37,7 @@ Comments while following the workshop video.
 # Progress (Problem Solving/Code)
 **Finding an API**
 
-I started by finding an API to work on - looking through the list of free APIs I found the Pokemon one to be very interesting
+I started by finding an API to work on - looking through the list of free APIs I found the Pokemon one to be very interesting.
 
 ![image](https://github.com/user-attachments/assets/3da5d8b3-c659-4ff7-b4f5-01f22fdba796)
 
@@ -49,7 +49,7 @@ Looking into specifically the characteristics of the pokemon
 
 https://pokeapi.co/docs/v2#characteristics
 
-At first, when implementing the API information - it wouldn't load in the text 
+At first, when implementing the API information - it wouldn't load in the text. 
 
 Despite following similar steps to the workshop video guide. 
 
@@ -57,6 +57,41 @@ Despite following similar steps to the workshop video guide.
 
 ![image](https://github.com/user-attachments/assets/11c49d50-879f-4487-9261-af6ebc6ba955)
 
+However, after checking out the url of the API I noticed that to reference the part I wanted, I had to refer to it differently. 
+
+![image](https://github.com/user-attachments/assets/1440a2f2-7da2-41fe-bae3-eb3b8fcb9244)
+
+Going from this 
+
+```
+pkm = jdata.descriptions[0];
+```
+
+Into this
+
+```
+pkm = jdata.descriptions[0].description;
+```
+
+![image](https://github.com/user-attachments/assets/2700d9e1-58ad-46ab-9e94-5620bd80f30a)
+
+I was then able to get my description in japanese - changing the index to change the language
+
+![image](https://github.com/user-attachments/assets/03e8bb02-e0b0-4ba9-b3c9-ea5d969af99f)
+
+
+Then using the API based on pokemon itself I wanted to get the data such as name and weight 
+
+![image](https://github.com/user-attachments/assets/498a3a2a-d466-4eb0-a02b-b9dacb062ada)
+
+![image](https://github.com/user-attachments/assets/074d6d81-12af-41eb-8610-e53a6f1a2c0f)
+
+I found the website to be heavy useful as the raw json file was a text nightmare
+
+
+Implementing these in the same manner as before
+
+![image](https://github.com/user-attachments/assets/0c0b9f4a-6ecb-4e21-a007-0c98f6db4546)
 
 
 **Final coding comments**
