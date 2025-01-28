@@ -93,6 +93,37 @@ Implementing these in the same manner as before
 
 ![image](https://github.com/user-attachments/assets/0c0b9f4a-6ecb-4e21-a007-0c98f6db4546)
 
+I then added this image 
+
+![image](https://github.com/user-attachments/assets/89ab024a-0680-49eb-947e-9ef1493267c6)
+
+To indicate weight for the pokemon 
+
+looping it until it hits a certain amount and then moving the x and reset the y of the image again
+
+![image](https://github.com/user-attachments/assets/c88ffadf-0cf5-4dc9-80a3-8f95d98fb970)
+
+
+![image](https://github.com/user-attachments/assets/5391e017-4739-4bc7-b572-cb095debf3a8)
+
+
+```
+
+  for (let i = 0 ; i < int(pkmWeight); i++){
+    image(weight, xpos, ypos);
+    ypos += (10);
+    if (ypos > 360){
+      ypos = 140;
+      xpos += 70;
+    }
+
+```
+
+I then also made it randomly pick a pokemon - from the first 30 pokemons so that the outputs are different each time the user refreshes 
+
+![image](https://github.com/user-attachments/assets/54eabfc6-1a88-452f-a774-2fd22b4fe121)
+
+
 
 **Final coding comments**
 - I was able to learn about APIs and implementing it
