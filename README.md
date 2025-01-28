@@ -59,18 +59,15 @@ Despite following similar steps to the workshop video guide.
 
 
 
-
-
 **Final coding comments**
 - I was able to learn about APIs and implementing it
-- I found a lot of trouble in displaying the data vs learning how to the API
-- 
+- I found a lot of trouble in displaying the data vs learning how to use the API. 
 
 # Future development 
 - I would like to implement more data about the Pokemon from the API
-- I would love to also have an image of the pokemon to show up as well to give a refernce for the user 
+- I would love to also have an image of the Pokemon to show up as well to give a reference for the user. 
 
 # Reflection
-- I found this super fun to do - especially since it was about pokemon - making it interesting in topic
-- I would love to experiment mroe with APIs - specifically with images since I didn't get to do that here
+- I found this super fun to do - especially since it was about pokemon - making it interesting in topic. 
+- I would love to experiment mroe with APIs - specifically with images since I didn't get to do that here. 
 - I really found the usefulness of APIs from this workshop and found the experiments fun to do. 
